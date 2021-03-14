@@ -1,2 +1,36 @@
+***************Creating a local directory and adding it to git repo ****************************
+
 git init - it turns the empty directory to a git repository
+
+git add <file name> - add the file to the staging area
+
+git commit -m "<message>" - to add a message to the recent chnages on repo
+
+git remote add origin <repo-name> - to add the remote repository after the git init command 
+
+git push -f origin master - to push the newly craeted folder to git remote directory 
+
+************************************************************************************************
+
+
+*******************check the git config on the local machine************************************
+
+git config --list - provides the git configuration on local machine 
+
+git config --list --show-origin - provides the origin of the git config files and the current git configuration
+
+git config user.name "<user-name>" - to add the user name
+
+git config user.e-mail "<user-email>" - to add the user e-mail
+
+*************************************************************************************************
+
+
+*******************************Git-Branch********************************************************
+
+git branch -a - shows you all the branches
+
+git branch <branch-name> - creates a new branch for you
+
+git checkout <branch name> - switch to the desired branch 
 
