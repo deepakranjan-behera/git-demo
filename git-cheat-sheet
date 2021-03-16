@@ -34,3 +34,59 @@ git branch <branch-name> - creates a new branch for you
 
 git checkout <branch name> - switch to the desired branch 
 
+git checkout master ==> git merge <branch-name>  -  to merge the dev branch to the master branch
+
+git branch -d dev - to delete a branch 
+
+git checkout -b <new-branch-name> - create a new branch and checkout to the new branch 
+
+**************************************************************************************************
+
+
+*******************************Working with remote Repo*******************************************
+
+git clone <remote repo> - git will create a directory  locally with all the files in the repository history 
+
+git pull - pull the details of the remote repository
+
+git push origin master - push the details of current chnages to the remote repo.
+
+
+*********************************Git-stash*********************************************************
+
+it is used to save changes made when they are noy in a state to commit to the repository
+
+this will store the work and give a clean working directory
+
+eg -  create a new file in your working directory {stash-test}
+
+git add stash-test - add the file to local repo staging area
+
+git status - check the git status 
+
+git stash -u - save the work in the working directory 
+
+git status - the working branch will be clean 
+
+git stash list - to list the details of saved stash 
+
+git stash show - to inspect the stash 
+
+git stash apply - the saved files and the previous work will appear on the working directory.
+
+
+*********************************Git-log*********************************************************
+
+git log - it shows the log history of a repository / it is available on a recently clone repository and history as well 
+
+git log --before='<date>' - to check the details of log before a date
+
+git log --after='<date>' - to check the details of log after a date 
+
+git log --until='<date>' - to check the details untill a date 
+
+git log --author='<author name>' - to check the details of a specific author
+
+git log --oneline - it will provide the log history in one line 
+
+git revert <recent commit hash> / git revert HEAD - it will revert the recent commit 
