@@ -8,7 +8,7 @@ git commit -m "<message>" - to add a message to the recent chnages on repo
 
 git remote add origin <repo-name> - to add the remote repository after the git init command 
 
-git push -f origin master - to push the newly craeted folder to git remote directory 
+git push -f origin master - to push the newly craeted folder to git remote directory Forefully (do it on a empty repo only)
 
 ************************************************************************************************
 
